@@ -63,9 +63,9 @@ public class DBInsertionServlet extends HttpServlet {
 				int rowsEffected=ps.executeUpdate();
 				out.println("Rows Effected: "+rowsEffected);
 				if(rowsEffected==1)
-					out.println("success");
+					out.println("Success");
 				else
-					out.println("failure");
+					out.println("Failure");
 			}
 		}
 		catch(SQLException e) {
