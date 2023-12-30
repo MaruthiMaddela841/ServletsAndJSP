@@ -49,7 +49,7 @@ public class DBInsertionServlet extends HttpServlet {
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		PrintWriter out=response.getWriter();
+		PrintWriter out = response.getWriter();
 		String name=request.getParameter("name");
 		int age=Integer.parseInt(request.getParameter("age"));
 		String address=request.getParameter("address");

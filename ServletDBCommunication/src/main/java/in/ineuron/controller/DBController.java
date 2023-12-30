@@ -82,9 +82,5 @@ public class DBController extends HttpServlet {
 			}
 		}
 	}
-	private String getParameter(String string) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }
