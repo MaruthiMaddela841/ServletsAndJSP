@@ -61,7 +61,7 @@ public class DBInsertionServlet extends HttpServlet {
 				ps.setInt(2, age);
 				ps.setString(3, address);
 				int rowsEffected=ps.executeUpdate();
-				out.println("Rows Effected;"+rowsEffected);
+				out.println("Rows Effected: "+rowsEffected);
 				if(rowsEffected==1)
 					out.println("success");
 				else
